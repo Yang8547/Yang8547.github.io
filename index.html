@@ -1,55 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Yang An</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-        <ul>
-          <li><a href="#welcome">About</a></li>
-          <li><a href="#projects">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Yang An - Personal Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<header id="header">
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#header" class="navbar-brand">YANG AN</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right" id="navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
-    </nav>
-      
-    <div id="welcome" class="intro">
-        <h1>Hi I'am Yang An.</h1>
-        <p>a Computer Science student</p>    
-        <div class="about-content">    
-            <img src="Screen Shot 2019-02-28 at 4.38.34 PM.png" alt="">    
-            <p>introduction</p>       
-        </div>  
+      </div>
+    </div>    
+  </nav>
+    <div class="container-fluid overlay">
+      <div class="row action">
+        <div class="col-xs-12">
+          <h1 class="text-center">Hello,</h1>
+          <h2 class="text-center">I'm Yang, a Full Stack Web Developer.</h2>
+        </div>
+        <div class="col-xs-12">
+          <a href="#about" class="button-start">Know a little more about me</a>
+        </div>
+     </div>
+    </div>      
+</header>
+<div id="about" class="container-fluid">
+  <section>
+    <div class="row title">
+      <div class="col-xs-12">
+        <h3 class="text-center">ABOUT ME</h3>
+      </div>
     </div>
+    <div class="row info-container">
+      <div class="col-xs-12 col-md-6">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-4 info">
+            <div class="profile-pic"></div>
+            <div class="profile-info">
+              <h4>Yang An</h4>
+              <h4><strong>Full Stack Web Developer</strong></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 skills">
+        <div class="row">
+          <div class="col-md-9 col-md-offset-1">
+            <p>Hi, I'm Yang An. I'm a Motivated Web Developer that love web development. I'm A quick learner with can-do attitude, curious about new technologies and dare to try new fields. My interest are web applications. I also consider myself a good team player who understands the importance of teamwork and collaboration.</p>
+            <h4><strong>Languajes:</strong> HTML, CSS, Javascript, PHP, JAVA, Python, MySQL, MongoDB.  </h4>
+            <h4><strong>Frameworks: </strong> Node.js, React.js, Redux, Express, Angular.js, Bootstrap, JQuery, Flask, Laravel.</h4>
+            <h4><strong>Tools:</strong> Git.</h4>
+            <h4><strong>Education:</strong> Bachelor of Computer Science with Distinction, Concordia University May, 2019</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div id="portfolio" class="container-fluid">
+  <section>
+    <div class="row title">
+      <div class="col-xs-12">
+        <h3 class="text-center">PROJECTS</h3>
+      </div>
+    </div>
+    <div class="row portfolio-container">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-12">
+        <div class="row pages-line">
+          <div class="col-xs-6 col-md-4">
+            <section class="page-box">
+              <div class="thumbnail">
+                <a href="https://play.google.com/store/apps/details?id=com.yiju.fic&hl=en"><img src="img/p1.jpg" /></a>
+              </div>
+              <div class="info">
+                <h5>ICIMAISON</h5>
+                <p><strong>Real Estate Mobile Application that help user find the ideal property</strong></p>
+                <p><i class="fab fa-html5"></i><i class="fab fa-css3"></i><i class="fab fa-node"></i><i class="fab fa-php"></i><i class="fas fa-database"></i></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <section class="page-box">
+              <div class="thumbnail">
+               <a href="http://homeglobal.co/#/"> <img src="img/p2.jpg" alt="" /></a>
+              </div>
+              <div class="info">
+                <h5>Broker Website</h5>
+                <p><strong>Website build for Real Estate Broker</strong></p>
+                <p><i class="fab fa-react"></i></i><i class="fab fa-php"></i><i class="fab fa-chrome"></i></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <section class="page-box">
+              <div class="thumbnail">
+                <a href="http://amazona.yangchuan.ca/"> <img src="img/p3.jpg" alt="" /></a>
+              </div>
+              <div class="info">
+                <h5>Amazona Clone</h5>
+                <p><strong>Personal practice project</strong></p>
+                <p><i class="fab fa-react"></i><i class="fas fa-database"></i><i class="fab fa-stripe"></i></p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div id="contact" class="container-fluid">
+  <section>
+    <div class="row title">
+      <div class="col-xs-12">
+        <h3 class="text-center">CONTACT</h3>
+      </div>
+    </div>
+    <div class="row contact-container">
+      <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-1 about-info">
+            <h3> You can find me here:</h3>
+            <h4>Email: anyang47@hotmail.com</h4>
+            <h4>Phone: 514-632-6688</h4>
+          </div>
+          <div class="col-xs-4 social-info">
+            <a href="https://www.linkedin.com/in/yang-an-88748217b/" class="social-btn linkedin">LinkedIn</a></br>
+            <a href="https://github.com/Yang8547" class="social-btn git">Github</a></br>
+            <a href="CV_YangAn_08.pdf" class="social-btn cv" target="_blank">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-lg-10 col-lg-offset-1 foot-nav">
+        <div>
+          <ul class="nav nav-pills">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="footer-copy"><strong>@yangan</strong></li>
+          </ul>
+        </div>        
+      </div>
+    </div>
+  </div>
+</footer>
 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="./script.js"></script>
 
-    <div id="projects" class="work">
-        <h1 class="work-header">Projects</h1>
-        <a href="https://repl.it/@Yang8547/meme-generator" class="project project-tile">
-            <img class="project-pic" src="Screen Shot 2019-02-28 at 5.39.50 PM.png" alt="project">
-            <div class="project-title">Meme Generator</div>
-        </a>
-        <a href="" class="project project-tile">
-            <img class="project-pic" src="Screen Shot 2019-02-28 at 5.39.50 PM.png" alt="project">
-            <div class="project-title">Project</div>
-        </a>
-        
-    </div>
-
-    <div id="contact" class="contact">
-    <div class="header">
-        <h1>Contact Me</h1>
-    </div>
-    <a href="https://github.com/Yang8547" class="contact-details">GitHub</a>
-    <a href="mailto:anyang47@hotmail.com" class="contact-details">Email</a>
-    <a href="tel:514-632-6688" class="contact-details">Phone</a>
-    </div>
-      <footer>
-        <p>&copy; Yang An</a></p>
-      </footer>
-  </body>
+</body>
 </html>
